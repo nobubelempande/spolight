@@ -1,0 +1,97 @@
+.event-thumbnail{
+    position: absolute;
+    width: 364px;
+    height: 364px;
+    left: 0px;
+    top: 24px;
+    
+    
+}
+
+.event-name{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    
+    position: absolute;
+    width: 360px;
+    height: 48px;
+    left: calc(50% - 360px/2 + 2.5px);
+    top: 375px;
+    color: #FFFFFF;
+}
+
+.event-location{
+position: absolute;
+width: 269px;
+height: 49px;
+left: 58px;
+top: 472px;
+color: #FFFFFF;
+}
+
+.event-date{
+position: absolute;
+width: 269px;
+height: 49px;
+left: 58px;
+top: 530px;
+color: #FFFFFF;
+
+}
+.event-price{
+position: absolute;
+width: 269px;
+height: 49px;
+left: 58px;
+top: 588px;
+color: #FFFFFF;
+}
+.event-ticket{
+position: absolute;
+width: 120px;
+height: 35px;
+left: 225px;
+top: 595px;
+background: #1B6942;
+
+/* 08 dp */
+filter: drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 14px rgba(0, 0, 0, 0.12)) drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2));
+}
+
+.event-us{   
+position: absolute;
+width: 70px;
+height: 28px;
+left: 23px;
+top: 626px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: -0.02em;
+
+color: #C4C4C4;
+}
+
+.event-about{
+position: absolute;
+width: 316px;
+height: 156px;
+left: 24px;
+top: 668px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+
+/* or 185% */
+letter-spacing: 0.15px;
+
+color: #FFFFFF;
+}
